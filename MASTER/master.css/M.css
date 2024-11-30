@@ -101,3 +101,28 @@ h4{
     position: relative;
     top: 35px;
 }
+
+
+@media screen and (max-width:500px) {
+    .carré{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .C{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        gap: 1500px;
+    }
+
+    .carte{
+        display: flex;
+        flex-direction: column;
+        justify-items: space-between;
+    }
+}
