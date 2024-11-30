@@ -72,3 +72,35 @@ nav{
     color: whitesmoke;
     font-family: monospace;
 }
+
+
+
+@media screen and (max-width:500px) {
+    .portrait{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        gap: 100px;
+        top: 700px;
+    }
+
+    .p2{
+        width: 400px;
+        position: relative;
+        right: 75px;
+        
+    }
+
+    .pI{
+        width: 100%;
+    }
+
+    .PT{
+        
+        width: 400px;
+        right: 77px;
+        height: 1800px;
+        gap: 200px;
+        position: relative;
+    }
+}
