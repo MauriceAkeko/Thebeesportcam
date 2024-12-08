@@ -74,7 +74,6 @@ nav{
 }
 
 
-
 @media screen and (max-width:500px) {
     .portrait{
         display: flex;
@@ -85,12 +84,12 @@ nav{
     }
 
     .p2{
-        width: 400px;
+        width: 350px;
         position: relative;
-        right: 75px;
-        
+        right: 35px;
     }
 
+    
     .pI{
         width: 100%;
     }
@@ -102,5 +101,6 @@ nav{
         height: 1800px;
         gap: 200px;
         position: relative;
+        font-size: 13px;
     }
 }

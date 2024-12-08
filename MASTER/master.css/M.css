@@ -95,6 +95,18 @@ nav{
 .carteI{
     width: 100%;
     height: 100%;
+    border: 1px groove;
+    border-radius: 20px;
+}
+
+#Sam{
+    position: relative;
+    top: 20px;
+}
+
+#SamText{
+    position: relative;
+    top: 100px;
 }
 
 h4{
@@ -115,9 +127,10 @@ h4{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 100%;
+        width: 80%;
         position: relative;
         gap: 1500px;
+        margin: auto;
     }
 
     .carte{
@@ -125,4 +138,90 @@ h4{
         flex-direction: column;
         justify-items: space-between;
     }
+
+    h4{
+        font-size: 13px;
+       
+    }
+
+    .Tex{
+        position: relative;
+        top: 90px;
+    }
+
+    .lien{
+        width: 250px;
+        margin: auto;
+    }
 }
+
+
+
+
+@media screen and (min-width:600px) {
+
+   
+
+
+    .carré{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+    
+        
+    }
+
+    .C{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        gap: 40px;
+        margin: auto;
+    }
+
+    .carte{
+        display: flex;
+        flex-direction: column;
+        justify-items: space-between;
+        position: relative;
+       
+        
+       
+    }
+
+    h4{
+        font-size: 13px;
+       
+    }
+
+    .Tex{
+        position: relative;
+        top: 90px;
+    }
+
+    .lien{
+        width: 250px;
+        margin: auto;
+        position: relative;
+       
+    }
+
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+
+

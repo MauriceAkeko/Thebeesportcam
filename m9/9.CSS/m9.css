@@ -74,6 +74,7 @@ nav{
 }
 
 
+
 @media screen and (max-width:500px) {
     .portrait{
         display: flex;
