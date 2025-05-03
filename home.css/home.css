@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/*partie du header*/
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 10%;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    background-color: black;
+}
+
+
+#navI{
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+#navI{
+    opacity: 0.8;
+}
+
+
+a{
+    color: whitesmoke;
+    font-weight: 500;
+    font-family: 'impact';
+}
+
+a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+    color: yellow;
+}
+
+
+
+
+
+/*partie de la première section*/
+
+main{
+    width: 91.6%;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 120px;
+}
+
+
+
+.S{
+
+    width: 100%;
+    height: 600px;
+}
+
+#S1{
+    background-image: url('../home.img/fond1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+
+/*pour la seconde partie*/
+#S2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(7, 6, 6);
+}
+
+.S2-1{
+    color: yellow;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'impact';
+    font-style: italic;
+}
+
+.S2-2{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.S2-3 {
+    border: 5px outset red;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: yellow;
+    display: block;
+    font-size: 20px;
+    padding: 20px; /* Ajoute de l'espace à l'intérieur du bloc */
+    box-sizing: border-box; /* Inclut le padding dans la largeur/hauteur totale */
+    line-height: 1.5; /* Espacement entre les lignes */
+    overflow: auto; /* Gère le débordement si le texte est trop long */
+    word-wrap: break-word; /* Permet aux mots longs de passer à la ligne */
+}
+
+/*pour la troisième partie*/
+#S3{
+    background-color: rgba(255, 47, 0, 0.853);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.S3-1{
+    color: yellow;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'impact';
+    font-style: italic;
+}
+
+
+.S3-2{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.S3-3 {
+    border: 5px inset black;
+    width: 100%;
+    height: 70%;
+    border-radius: 25px;
+    color: yellow;
+    display: block;
+    font-size: 20px;
+    padding: 20px; /* Ajoute de l'espace à l'intérieur du bloc */
+    box-sizing: border-box; /* Inclut le padding dans la largeur/hauteur totale */
+    line-height: 1.5; /* Espacement entre les lignes */
+    overflow: auto; /* Gère le débordement si le texte est trop long */
+    word-wrap: break-word; /* Permet aux mots longs de passer à la ligne */
+}
+
+.fas{
+    color: black;
+    font-size: 50px;
+}
+
+/*pour la quatrième partie*/
+#S4{
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.S4-1{
+    border: 1px groove red;
+    width: 25%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+.S4-1:hover{
+    box-shadow: 0 0 20px yellow;
+    transition: all 0.3s ease-in-out;
+}
+
+.S4I{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/*pour la cinquième partie*/
+
+#S5{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.S5-1{
+    color: red;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'impact';
+    font-style: italic;
+}
+
+.S5-2{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.S5-3{
+    border: 3px outset;
+    width: 15%;
+    height: 100%;
+    border-radius: 25px;
+}
+.S5-3:hover{
+transform: translateY(-10px);
+opacity: 0.8;
+color: whitesmoke;
+}
+
+.S5I{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#S5ICONS{
+    color: black;
+    font-size: 150px;
+}
+
+
+@media screen and (max-width: 1500px)  {
+
+
+    body{
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+
+   
+
+    nav{
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    
+
+    /*Pour la première partie*/
+    main{
+        width: 100%;
+    }
+
+    .S{
+        width: 100%;
+        height: 600px;
+    }
+    #S1{
+       width: 100%;
+
+       
+    background-image: url('../home.img/fond1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 700px;
+
+    }
+
+
+
+    /*pour la seconde partie*/
+    .S2-2{
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    /*pour la troisième partie*/
+    .S3-2{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+        position: relative;
+        top: 100px;
+    }
+
+    /*pour la quatrième partie*/
+    #S4{
+        background-color: rgb(7, 6, 6);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+.S4-1{
+    border: 1px groove red;
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+}
+   
+   /*pour la cinquième partie*/
+   
+#S5ICONS{
+    color: black;
+    font-size: 100px;
+    align-items: center;
+}
+
+
+
+     
+
+    
+}
+
+
+@media screen and (max-width: 480px) {
+  
+    
+}
+
+
+
+
+
